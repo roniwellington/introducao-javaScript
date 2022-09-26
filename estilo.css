@@ -1,0 +1,65 @@
+body{
+    background-image: url(img/fundo-manha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: normal 16px Arial;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.468);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.312);
+}
+
+.primeira-secao {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.312);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div {
+    padding: 8px;
+}
+
+.segunda-secao {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.312);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.468);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.312);
+}
+
+@media screen and (max-width: 500px) {
+  
+    .primeira-secao {
+        width: 280px;
+        
+        
+    }
+    .segunda-secao {
+        width: 280px;
+    }
+}
